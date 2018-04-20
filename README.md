@@ -7,16 +7,22 @@ Install [matplotlib](https://matplotlib.org/) library using ```pip```  tool
 pip install matplotlib
 python -m matplotlib.install
 ```
-Alternatively   
-on fedora/redhat, ``` sudo yum install python-matplotlib```  
-on ubuntu/debian, ``` sudo apt-get install python-matplotlib```
-
+Alternatively, if you are using Linux, install it as a package  
+on Fedora/Centos/RHL  
+```bash
+sudo dnf install python-matplotlib
+```  
+on Ubuntu/Debian 
+```bash
+sudo apt-get install python-matplotlib
+```
+### To Run  
 Clone the project,
 ```bash
 git clone git@github.com:ubbn/random-walk-matplotlib.git
 ```
 
-### To Run
+Switch to working directory
 ```bash
 cd random-walk-matplotlib
 ```
